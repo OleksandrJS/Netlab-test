@@ -5,11 +5,7 @@ const nav = document.querySelector('.nav__menu');
 
 const btnHandler = () => {
   navBtn.classList.toggle('on');
-  if (nav.style.display === 'flex') {
-    nav.style.display = 'none';
-  } else {
-    nav.style.display = 'flex';
-  }
+  nav.classList.toggle('displayFlex');
 };
 
 navBtn.addEventListener('click', btnHandler);
