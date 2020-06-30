@@ -27,7 +27,8 @@
         </div>
         <div class="row">
             <nav class="nav w-100">
-                <ul class="nav__menu text-uppercase d-flex justify-content-between w-100">
+                <div class="nav-btn"><a href="#!" title="Меню"><span></span></a></div>
+                <ul class="nav__menu text-uppercase justify-content-between w-100">
                     <li class="nav__menu-item"><a>Главная</a></li>
                     <li class="nav__menu-item"><a>Прп.Савва Сторожевский</a></li>
                     <li class="nav__menu-item"><a>Жизнь прихода</a></li>
@@ -67,10 +68,10 @@
         <div class="container" style="
         padding-left: 0px;">
             <div class=" row">
-                <div class="col">
+                <div class=" col-xl-6 col-lg-12 col-sm-12 col-md-12 paddingRight ">
                     <div class="posts__popular">
                         <div class="posts__popular-card">
-                            <img src="./img/post-1.jpg" alt="post-img">
+                            <img class="img-fluid" src="./img/post-1.jpg" alt="post-img">
                             <div class="posts__popular-card-body">
                                 <div class="posts__popular-card_date">
                                     <img src="./img/icons/date.png" alt="date">
@@ -97,7 +98,7 @@
                             </div>
                         </div>
                         <div class="posts__popular-card">
-                            <img src="./img/post-2.jpg" alt="post-img">
+                            <img class="img-fluid" src="./img/post-2.jpg" alt="post-img">
                             <div class="posts__popular-card-body">
                                 <div class="posts__popular-card_date">
                                     <img src="./img/icons/date.png" alt="date">
@@ -128,11 +129,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col" style="
+                <div class=" col-xl-6 col-lg-12 col-sm-12 col-md-12 paddingRight " style="
                 transform: translateX(-15px);">
                     <div class="posts__new">
                         <div class="row" style=" margin-left: 4px;">
-                            <div class="col">
+                            <div class="col-12 col-xl-6 col-lg-6 col-sm-6 col-md-6">
                                 <div class="posts__new-card">
                                     <img src="./img/post-3.jpg" alt="post-img">
                                     <h5>Молебен 19.02.2017</h5>
@@ -162,7 +163,7 @@
                                             alt="">Подробнее</a>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-xl-6 col-lg-6 col-sm-6 col-md-6 displayNone">
                                 <div class="posts__new-card">
                                     <img src="./img/post-4.jpg" alt="post-img">
                                     <h5>Молебен 19.02.2017</h5>
@@ -223,10 +224,10 @@
             <div class="banner__wrapper">
                 <div class="banner__facebook">
                     <h5>Facebook</h5>
-                    <img src="./img/banner-facebook.jpg" alt="">
+                    <img class="img-fluid" src="./img/banner-facebook.jpg" alt="">
                 </div>
                 <div class="banner__empty">
-                    <h5>Banner</h5>
+                    <h5 class="text-center">Banner</h5>
                 </div>
             </div>
         </div>
@@ -238,14 +239,14 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-5">
+                <div class="col-12 col-lg-5">
                     <h1 class="footer__title">Храм святого преподобного
                         Саввы Сторожевского</h1>
                     <h5 class="footer__subtitle">Местная религиозная организация
                         Московской епархии Русской Православной Церкви
                         (Московский Патриархат)</h5>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <ul class="footer__menu">
                         <li class="footer__menu-item"><a>Главная</a></li>
                         <li class="footer__menu-item"><a>Прп.Савва Сторожевский</a></li>
@@ -255,7 +256,7 @@
                         <li class="footer__menu-item"><a>Пожертвования</a></li>
                     </ul>
                 </div>
-                <div class="col-3 d-flex justify-content-end">
+                <div class="col-12 col-lg-3">
                     <div class="footer__social-links">
                         <a href="#!"><i class="icon-vkontakte"></i></a>
                         <a href="#!"><i class="icon-odnoklassniki"></i></a>
@@ -277,6 +278,7 @@
         crossorigin="anonymous"></script>
     <script src="./libs/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="./js/slider.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
